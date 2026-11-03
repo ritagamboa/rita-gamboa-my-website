@@ -1,0 +1,98 @@
+body { background-color: rgb(57, 63, 121); }
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}  
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    align-items: bottom;
+}
+ nav ul { 
+list-style-type: none; 
+margin: 0;
+padding: 0;
+display: flex;
+list-style: none;
+font-family: verdana;
+font-size: 30px;
+text: white;
+}
+
+img { src: url("heroimage.png");
+    max-width: 100%;
+    height: auto;
+    display: block; }
+
+img { src: url("oldcouple.png");
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+img { src: url("logo.png");
+flex-direction: row;
+display: block;
+
+}
+.image-container1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+    h1
+    { color:white;
+    font-family: Verdana bold;
+    font-size: 50px;
+    text-align: center; }
+
+    h2 { color:white;
+    font-family: Verdana bold;
+    font-size: 30px;
+    text-align: center;
+    }
+    p { color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: center;
+margin-left: 20px;
+margin-right: 20px;}
+
+.menu-container {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+iframe { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer { color: white;
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: center;
+    align-items: bottom;
+    margin-top: auto;
+    list-style: none;
+    }
+    .footer-list  {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    align-items: bottom;
+}
