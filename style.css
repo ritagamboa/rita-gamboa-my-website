@@ -4,19 +4,42 @@ body, html {
     margin: 0;
     padding: 0;
 }
+header {
+   border-bottom: 10px dotted white;
+}
 .navigation {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 30px;
+    gap: 50px;
 }  
 .nav-list a {
     text-decoration: none;
     color: white;
-    padding: 8px 12px;
-    align-items: bottom;
+    padding: 8px 20px;
+    margin-right: 20px;
 }
+.nav-list a:hover {
+    background-color: rgba(9, 11, 31, 0.642);
+    color: white;
+    border-radius: max(10px);
+}
+.nav-list a:active {
+background-color: rgba( 9, 11, 31, 0.642);
+color: white;
+border-radius: max(10px);
+font-weight: bold;
+}
+nav a.active {
+ background-color: rgba( 9, 11, 31, 0.642);
+color: white;
+border-radius: max(10px);
+font-weight: bold;
+}
+
  nav ul { 
 list-style-type: none; 
 margin: 0;
@@ -25,7 +48,6 @@ display: flex;
 list-style: none;
 font-family: verdana;
 font-size: 30px;
-text: white;
 }
 
 img { src: url("heroimage.png");
@@ -40,9 +62,10 @@ img { src: url("oldcouple.png");
     margin-left: auto;
     margin-right: auto;}
 
-img { src: url("logo.png");
-flex-direction: row;
-display: block;
+.logo { 
+display: flex;
+margin-right: auto;
+justify-content: space-between;
 
 }
 .image-container1 { 
@@ -77,10 +100,28 @@ margin-right: 20px;}
     padding: 0;
     width: 100%;
 }
+.price-container {
+    display: grid;
+   
+   grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+.social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    padding: 10px;
+}
+
 iframe { 
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
 }
 .footer { color: white;
     font-family: Verdana;
@@ -89,10 +130,14 @@ iframe {
     align-items: bottom;
     margin-top: auto;
     list-style: none;
+    border-top: 2px dotted white;
     }
     .footer-list  {
     text-decoration: none;
     color: white;
     padding: 8px 12px;
     align-items: bottom;
+}
+button { 
+    font-family: Verdana, ;
 }
