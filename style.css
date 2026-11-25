@@ -76,8 +76,8 @@ justify-content: space-between;
 }
     h1
     { color:white;
-    font-family: Verdana bold;
-    font-size: 50px;
+    font-family: Verdana;
+    font-size: 35px;
     text-align: center; }
 
     h2 { color:white;
@@ -100,19 +100,9 @@ margin-right: 20px;}
     padding: 0;
     width: 100%;
 }
-div.scroll-container {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
-}
 
-div.scroll-container img {
-  padding: 10px;
-}
 .price-container {
-    display: grid;
-   
+    display: none;
    grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
     margin: 0;
@@ -147,7 +137,4 @@ iframe {
     color: white;
     padding: 8px 12px;
     align-items: bottom;
-}
-button { 
-    font-family: Verdana, ;
 }
